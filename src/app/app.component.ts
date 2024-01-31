@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Login-Ragistration';
+  value = 35;
+
+  formatLabel(value: number): string {
+
+      return Math.round(value) + '%';
+
+  }
 }
